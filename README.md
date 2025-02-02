@@ -1,0 +1,2 @@
+# ActionScript 3.0 Factorial Function Bug
+This repository demonstrates a common error in recursive functions written in ActionScript 3.0: stack overflow. The `factorialBug.as` file contains a recursive function to calculate the factorial of a number.  This function works correctly for small numbers but will crash for larger numbers due to exceeding the call stack limit. The `factorialSolution.as` file provides a solution using iteration to avoid the stack overflow.
